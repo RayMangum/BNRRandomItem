@@ -25,6 +25,8 @@ int main(int argc, const char * argv[])
             NSLog(@"%@", item);
         }
         
+        NSLog(@"%@", items[10]);
+        
         items = nil;
     }
     return 0;
