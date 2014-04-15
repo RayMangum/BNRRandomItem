@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7113C48218FCBD74001853B6 /* BNRContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7113C48118FCBD74001853B6 /* BNRContainer.m */; };
 		71869C8A18FA0D47009943C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71869C8918FA0D47009943C5 /* Foundation.framework */; };
 		71869C8D18FA0D47009943C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71869C8C18FA0D47009943C5 /* main.m */; };
 		71869C9118FA0D47009943C5 /* RandomItem.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 71869C9018FA0D47009943C5 /* RandomItem.1 */; };
@@ -27,6 +28,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7113C48018FCBD74001853B6 /* BNRContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRContainer.h; sourceTree = "<group>"; };
+		7113C48118FCBD74001853B6 /* BNRContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRContainer.m; sourceTree = "<group>"; };
 		71869C8618FA0D47009943C5 /* RandomItem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RandomItem; sourceTree = BUILT_PRODUCTS_DIR; };
 		71869C8918FA0D47009943C5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		71869C8C18FA0D47009943C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -79,6 +82,8 @@
 				71869C8C18FA0D47009943C5 /* main.m */,
 				71869C9718FA2CEC009943C5 /* BNRItem.h */,
 				71869C9818FA2CEC009943C5 /* BNRItem.m */,
+				7113C48018FCBD74001853B6 /* BNRContainer.h */,
+				7113C48118FCBD74001853B6 /* BNRContainer.m */,
 				71869C9018FA0D47009943C5 /* RandomItem.1 */,
 				71869C8E18FA0D47009943C5 /* Supporting Files */,
 			);
@@ -146,6 +151,7 @@
 			files = (
 				71869C8D18FA0D47009943C5 /* main.m in Sources */,
 				71869C9918FA2CEC009943C5 /* BNRItem.m in Sources */,
+				7113C48218FCBD74001853B6 /* BNRContainer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +265,7 @@
 				71869C9618FA0D47009943C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
